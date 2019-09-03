@@ -39,5 +39,5 @@ object Google {
 
 object Petitviolet {
   val version = "0.4.0"
-  val ulid = "net.petitviolet" %% "ulid4s" % version
+  val ulid    = "net.petitviolet" %% "ulid4s" % version
 }

@@ -6,7 +6,7 @@ lazy val `infrastructure` = (project in file("modules/infrastructure"))
   .settings(
     name := s"$baseName-infrastructure",
     libraryDependencies ++= Seq(
-      Petitviolet.ulid
+        Petitviolet.ulid
       )
   )
   .settings(coreSettings)
