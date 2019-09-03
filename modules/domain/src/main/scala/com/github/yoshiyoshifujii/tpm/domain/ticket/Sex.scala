@@ -1,4 +1,4 @@
-package com.github.yoshiyoshifujii.tpm.domain.customer
+package com.github.yoshiyoshifujii.tpm.domain.ticket
 
 import com.github.yoshiyoshifujii.tpm.domain.EnumWithValidation
 import enumeratum._

@@ -1,12 +1,10 @@
 package com.github.yoshiyoshifujii.tpm.domain.ticketprice
 
-import com.github.yoshiyoshifujii.tpm.domain.schedule.{DayOfWeek, TimeZone}
-
 trait TicketPrice {
 
-  val ticketCategory: TicketCategory
+  val ticketType: TicketType
   val price: Price
-  val dayOfWeek: DayOfWeek
-  val timeZone: TimeZone
+  val dayBand: DayBand
+  val timeBand: TimeBand
 
 }
